@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesing</title>
+</head>
+<body>
+    <div style="border: 2px solid red; width: 100px; height: 100px; display: flex; justify-content: center; align-items: center;">Click</div>
+    <script>
+        let click = document.getElementsByTagName("div")[0];
+        click.addEventListener('click', function(){
+            let player=new Audio('audio.mp3');
+            player.play();
+        })
+    </script>
+</body>
+</html>
